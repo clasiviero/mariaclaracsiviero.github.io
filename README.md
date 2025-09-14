@@ -1,2 +1,2 @@
-# mariaclaracsiviero.githhub.io
+# mariaclaracsiviero.github.io
 Personal website
