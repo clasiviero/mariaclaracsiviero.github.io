@@ -65,16 +65,25 @@
 						<p>Feel free to send me an e-mail or contact me through social media!.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<div class="box">
-									<h3>Contact me directly:</h3>
-									<p>Email: <strong>mariaclara.siviero@gmail.com</strong></p>
-									<p>Phone: <strong>(21) 99207-6056</strong></p>
-									<p>Address: <strong>R. Dr. Xavier Sigaud, 150 - Botafogo, Rio de Janeiro - RJ, 22290-180, Brazil</strong></p>
-									<ul class="actions">
-										<li><a href="mailto:mariaclara.siviero@gmail.com" class="button primary">Send Email</a></li>
-										<li><a href="https://github.com/clasiviero" class="button">View GitHub</a></li>
-									</ul>
-								</div>
+								<form method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="email" placeholder="Your Email" required />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="subject" id="subject" placeholder="Subject" required />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Your Message" rows="4" required></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
